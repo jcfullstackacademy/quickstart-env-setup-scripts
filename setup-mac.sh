@@ -34,10 +34,10 @@ read -p "Email address is: " email
 
 echo "Follow the prompts to save your ssh key. You can choose whether or not to add a password."
 
-# ssh-keygen -t ed25519 -C "$email"
+ssh-keygen -t ed25519 -C "$email"
 
 echo "Adding your ssh key to your identity!"
-# ssh-add ~/.ssh/id_ed25519
+ssh-add ~/.ssh/id_ed25519
 
 echo "Creating .gitconfig file!"
 
@@ -45,9 +45,9 @@ echo "What is your full name?"
 
 read -p "Name is: " entered_name
 
-touch ~/.gitconfig-test
+touch ~/.gitconfig
 
-cat << EOF >> ~/.gitconfig-test
+cat << EOF >> ~/.gitconfig
 [user]
   name = $entered_name
   email = $email
