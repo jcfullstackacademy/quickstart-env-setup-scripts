@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This is a setup script for Mac Users
+
 cd ~
 mkdir ~/projects
 

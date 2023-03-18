@@ -2,7 +2,7 @@
 
 ## Installation for Mac Users
 
-Download the `setup-mac.sh` script and run `sh setup-mac.sh` in your terminal to install packages and create your development environment.
+Download the `setup-mac.sh` script or `git pull` this repository and run `sh setup-mac.sh` in your terminal to install packages and create your development environment.
 
 This script will:
 
