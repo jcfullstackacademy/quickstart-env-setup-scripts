@@ -4,7 +4,7 @@
 
 Download the `setup-mac.sh` script or `git pull` this repository and run `sh setup-mac.sh` in your terminal to install packages and create your development environment.
 
-This script will:
+This script is for Mac users and it will:
 
 1. Create a `~/projects` directory for you
 2. Install **Homebrew** and install necessary packages such as git via the **BrewFile**.

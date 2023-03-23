@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is a setup script for Mac Users
+# This is a setup script for Mac Users and will not work on Windows
 
 cd ~
 mkdir ~/projects
